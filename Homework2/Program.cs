@@ -19,13 +19,9 @@ namespace Homework2
 					iterations++;
 
 					if (input > number)
-					{
 						Console.Write("Podana liczba jest większa od szukanej. Spróbuj jeszcze raz: ");
-					}
 					else if (input < number)
-					{
 						Console.Write("Podana liczba jest mniejsza od szukanej. Spróbuj jeszcze raz: ");
-					}
 					else
 					{
 						Console.Write($"Brawo! Znalazłeś poprawną liczbę - {number} w {iterations} krokach.");
@@ -33,11 +29,8 @@ namespace Homework2
 					}
 				}
 				else
-				{
 					Console.Write("Error! błędne dane! Spróbuj jeszcze raz (liczba od 0 do 100): ");
-				}
 			}
-
 			Console.ReadLine();
 		}
 	}
